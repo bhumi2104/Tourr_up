@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change directory to your Django project directory
-cd /home/bhumika/hook
+cd /home/bhumika/Tourr_up
 
 # Pull latest changes from the Git repository
 git pull origin main
