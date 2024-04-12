@@ -7,8 +7,8 @@ cd /home/bhumika/Tourr_up
 git pull origin main
 
 # Run any necessary commands to update dependencies, migrate database, etc.
-python manage.py migrate
-python manage.py collectstatic --noinput
+python3 manage.py migrate
+python3 manage.py collectstatic --noinput
 
 # Restart the server or any necessary services
-systemctl restart gunicorn.service
+python3 manage.py runserver
