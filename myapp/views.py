@@ -405,7 +405,7 @@ def deploy(request):
 
             subprocess.run(['sh', path])
 
-            return JsonResponse({'message': 'Deployment successful hiiiiiiiiiii'}, status=200)
+            return JsonResponse({'message': 'Deployment successful changes'}, status=200)
         except Exception as e:
             return JsonResponse({'error': str(e)}, status=500)
     else:
