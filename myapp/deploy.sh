@@ -8,7 +8,7 @@ git pull origin main
 
 # Run any necessary commands to update dependencies, migrate database, etc.
 python3 manage.py migrate
-python3 manage.py collectstatic --noinput
+# python3 manage.py collectstatic --noinput
 
 # Restart the server or any necessary services
 python3 manage.py runserver
